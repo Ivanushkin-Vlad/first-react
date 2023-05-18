@@ -15,9 +15,6 @@
   text-decoration: none;
   font-family: "Nova Round", cursive;
 }
-.header-container header .nav-link-search a:hover{
-  color: crimson;
-}
 .header-container header .nav-link-search .active {
   color: brown;
 }

@@ -1,0 +1,91 @@
+.footer-container {
+  margin-top: 50px;
+  padding: 0px 10% 0px 10%;
+}
+.footer-container footer .top-footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.footer-container footer .top-footer .iframe-container {
+  width: 62%;
+}
+.footer-container footer .top-footer .iframe-container .map-iframe {
+  border-radius: 10px;
+}
+.footer-container footer .top-footer .iframe-container .active {
+  display: block;
+  border-radius: 10px;
+}
+.footer-container footer .top-footer .iframe-container .none {
+  display: none;
+}
+.footer-container footer .top-footer .adress-ritm {
+  width: 30%;
+}
+.footer-container footer .top-footer .adress-ritm .NewYork {
+  margin-bottom: 24px;
+}
+.footer-container footer .top-footer .adress-ritm .ritm {
+  background-color: #018ABE;
+  border-radius: 5px;
+  height: 200px;
+  display: flex;
+  transition-property: all;
+  transition-duration: 1.2s;
+  flex-direction: column;
+  justify-content: center;
+}
+.footer-container footer .top-footer .adress-ritm .ritm h3 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Nova Round", cursive;
+  color: white;
+  padding-top: 15px;
+}
+.footer-container footer .top-footer .adress-ritm .ritm p {
+  font-size: 12px;
+  font-weight: 500;
+  font-family: "Nova Round", cursive;
+  color: white;
+}
+.footer-container footer .top-footer .adress-ritm .btn-footer button {
+  padding: 15px;
+  color: #018ABE;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: "Nova Round", cursive;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  transition-property: all;
+  transition-duration: 1.2s;
+}
+.footer-container footer .top-footer .adress-ritm .btn-footer button:hover {
+  background-color: #018ABE;
+  border-width: 6px;
+  border-color: #742d2d;
+  border-radius: 10px;
+  color: white;
+}
+.footer-container footer .top-footer .adress-ritm .ritm:hover {
+  background-color: white;
+  border-width: 6px;
+  border-color: #742d2d;
+  border-radius: 15px;
+}
+.footer-container footer .top-footer .adress-ritm .ritm:hover h3 {
+  color: #018ABE;
+}
+.footer-container footer .top-footer .adress-ritm .ritm:hover p {
+  color: #018ABE;
+}
+.footer-container footer .footer-c {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Nova Round", cursive;
+  color: white;
+}/*# sourceMappingURL=Footer.css.map */

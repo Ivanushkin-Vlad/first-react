@@ -1,4 +1,4 @@
-import './Footer_style/Footer.scss'
+import './Footer_style/Footer.css'
 import {useState} from "react";
 const Footer = ({data}) => {
     let flag1 = true;
