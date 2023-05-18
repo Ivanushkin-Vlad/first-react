@@ -1,24 +1,28 @@
-import logo from './logo.svg';
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import Header from "./components/Header/Header";
+import Home from './components/HomePag/Home';
+import Error from './components/Error';
+import Session from './components/Session/Session';
+import Footer from "./components/Footer/Footer";
+import {useEffect} from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
-function App() {
+function App({ data }) {
+    useEffect(() => {
+        Aos.init({duration:  2000});
+    }, []);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div className="App">
+          <Header dB={data.header}/>
+          <Routes>
+              <Route path='/Home' element={<Home data={data.home}/>}/>
+              <Route path='/Session' element={<Session data={data.session}/>}/>
+              <Route path="*" element={<Error/>}/>
+          </Routes>
+          <Footer data = {data.footer}/>
+      </div>
   );
 }
 

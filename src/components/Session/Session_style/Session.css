@@ -1,0 +1,35 @@
+.container-session {
+  padding: 0px 10% 0px 10%;
+}
+
+.container-session .block-session {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+.image-session {
+  width: 32%;
+  margin-bottom: 10px;
+  background-image: url('../../../assets/session_photo.png');
+  height: 225px;
+  border-radius: 15px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-family: 'Nova Round', cursive;
+  font-size: 16px;
+  color: white;
+}
+
+.title-ritm {
+  font-weight: 700;
+  font-family: 'Nova Round', cursive;
+  font-size: 42px;
+  color: white;
+}
+
+/*# sourceMappingURL=Session.css.map */

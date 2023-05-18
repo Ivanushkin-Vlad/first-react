@@ -1,0 +1,14 @@
+.container-session{
+    padding: 0px 10% 0px 10%;
+    .block-session{
+        border: 2px solid red;
+        display: flex;
+        flex-wrap: wrap;
+        .image-session{
+            width: 32%;
+            margin-right: 10px;
+        }
+    }
+
+
+}

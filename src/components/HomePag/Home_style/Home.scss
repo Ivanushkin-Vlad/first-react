@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Round&display=swap');
+
+
+.container-home{
+    padding: 0px 10% 0px 10%;
+    .home{
+        .img-home{
+            position: relative;
+            img{
+                max-width: 100%;
+            }
+        }
+        .wrapper{
+            position: absolute;
+            top: 40%;
+            left: 0;
+            width: 100%;
+            // background-image: url(../../../assets/home_image.png);
+            .title-home{
+                font-family: 'Nova Round', cursive;
+                font-weight: 700;
+                font-size: 24px;
+                color: white;
+            }
+            .description-home{
+                font-family: 'Nova Round', cursive;
+                font-weight: 700;
+                font-size: 64px;
+                color: white;
+            }
+        }
+        
+    }
+}
