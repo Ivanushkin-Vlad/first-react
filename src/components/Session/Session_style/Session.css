@@ -1,12 +1,28 @@
 .container-session {
   padding: 0px 10% 0px 10%;
 }
+.container-session .title-ritm {
+  font-family: "Nova Round", cursive;
+  font-weight: 600;
+  font-size: 24px;
+  color: white;
+}
 .container-session .block-session {
-  border: 2px solid red;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 .container-session .block-session .image-session {
   width: 32%;
-  margin-right: 11px;
+  height: 250px;
+  margin-bottom: 10px;
+  background-image: url(../../../assets/session_photo.png);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Nova Round", cursive;
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 10px;
 }/*# sourceMappingURL=Session.css.map */
