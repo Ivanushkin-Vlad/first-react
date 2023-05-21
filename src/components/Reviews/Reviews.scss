@@ -1,0 +1,38 @@
+.carousel-container{
+  padding: 0px 10% 0px 10%;
+  .logo-rev{
+    widtd: 400px;
+  }
+}
+.title-news h3{
+  font-family: 'Nova Round', cursive;
+  font-weight: 600;
+  font-size: 24px;
+  color: white;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  width: 220px;
+  position: relative;
+  &:before{
+    content: '';
+    width: 28px;
+    height: 14px;
+    background-color: #018ABE;
+    position: absolute;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    border-radius: 0px 50px;
+    top: 10px;
+    left: 0px;
+  }
+  &::after{
+    content: '';
+    width: 28px;
+    height: 14px;
+    background-color: #018ABE;
+    position: absolute;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    border-radius: 0px 50px;
+    top: 10px;
+    right: 0px;
+  }
+}

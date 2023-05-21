@@ -1,6 +1,7 @@
 import './Footer_style/Footer.css'
 import {useState} from "react";
 const Footer = ({data}) => {
+    console.log(data)
     let flag1 = true;
     let flag2 = false;
     const [state, setState] = useState(flag1)

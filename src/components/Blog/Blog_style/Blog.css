@@ -1,0 +1,53 @@
+.container-blog .blog {
+  border: 2px solid #018ABE;
+  margin-bottom: 25px;
+  border-radius: 15px;
+  margin-top: 30px;
+}
+.container-blog .blog .blog-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.container-blog .blog .blog-section .image-blog {
+  width: 50%;
+}
+.container-blog .blog .blog-section .image-blog img {
+  width: 100%;
+  padding: 5% 0px 5% 0px;
+}
+.container-blog .blog .blog-section .description-blogs {
+  width: 40%;
+}
+.container-blog .blog .blog-section .description-blogs .description-blog {
+  font-size: 12px;
+  text-align: justify;
+}
+.container-blog .blog .blog-section .description-blogs .btn-blog {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 15px;
+}
+.container-blog .blog .blog-section .description-blogs .btn-blog .button-blog {
+  padding: 20px;
+  width: 139px;
+  height: 39px;
+  background-color: #018ABE;
+  color: white;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: "Nova Round", cursive;
+  cursor: pointer;
+  transition: 1s;
+}
+.container-blog .blog .blog-section .description-blogs .btn-blog .button-blog:hover {
+  color: #018ABE;
+  background-color: white;
+  border-radius: 10px;
+}
+
+/*# sourceMappingURL=Blog.css.map */

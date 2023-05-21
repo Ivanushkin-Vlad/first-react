@@ -7,8 +7,12 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        .nav-link-search{
+            width: 50%;
+            display: flex;
+            justify-content: space-between;
+        }
         .nav-link-search a{
-            margin-right:  50px; 
             font-size: 14px;
             color: white;
             text-decoration: none;

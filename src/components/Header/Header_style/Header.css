@@ -8,8 +8,12 @@
   justify-content: space-between;
   align-items: center;
 }
+.header-container header .nav-link-search {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
 .header-container header .nav-link-search a {
-  margin-right: 50px;
   font-size: 14px;
   color: white;
   text-decoration: none;
@@ -26,4 +30,6 @@
   font-size: 13px;
   font-family: "Nova Round", cursive;
   cursor: pointer;
-}/*# sourceMappingURL=Header.css.map */
+}
+
+/*# sourceMappingURL=Header.css.map */
